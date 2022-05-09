@@ -1,13 +1,43 @@
 .nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
   background-color: rgba(252, 249, 249, 0.959);
   padding: 20px 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav__list {
   display: flex;
-
   justify-content: space-between;
 }
+
 .nav__link {
-  color: black;
+  position: relative;
+  color: #2e363e;
+}
+.nav__notification {
+  background-color: rgb(255, 93, 35);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 15px;
+  position: absolute;
+  right: -8px;
+  top: -15px;
+}
+
+.nav__alarm {
+  background-color: rgb(255, 93, 35);
+  display: flex;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  position: absolute;
+  right: -4px;
 }
