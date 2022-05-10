@@ -1,0 +1,15 @@
+#friends-display-link {
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: grey;
+  background-color: rgba(201, 199, 199, 0.1);
+}
+#friends-display-link i {
+  margin: 0px 7px 0px 7px;
+
+  opacity: 0.18;
+}
