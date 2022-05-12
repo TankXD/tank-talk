@@ -7,9 +7,11 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Jua", sans-serif;
@@ -17,4 +19,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   height: 1000vh;
   color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px 20px;
 }
