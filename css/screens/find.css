@@ -111,3 +111,21 @@
 .open-post__column {
   margin-bottom: 15px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    font-size: 16px;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post__like-count:hover i {
+  will-change: font-size;
+  animation: heartBeat 1s ease-in-out infinite;
+}

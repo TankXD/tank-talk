@@ -53,6 +53,23 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+@keyframes heartBeat2 {
+  0% {
+    background-color: white;
+  }
+  50% {
+    /* background-color: tomato; */
+    background-color: pink;
+    font-size: 32px;
+  }
+  100% {
+    background-color: white;
+  }
+}
+.user-component__status:hover {
+  animation: heartBeat2 1.5s ease-in-out infinite;
+}
+
 .user-component__column:nth-child(even) {
   display: flex;
   flex-direction: column;
