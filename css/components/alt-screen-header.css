@@ -6,10 +6,13 @@
   margin-bottom: 15px;
 }
 .alt-header__title {
-  font-size: 26px;
+  font-size: 28px;
 }
 .alt-header__column i {
   font-size: 22px;
+}
+.alt-header__column {
+  width: 33%;
 }
 
 .alt-header__column span:not(:first-child) {
@@ -18,7 +21,19 @@
 
 .alt-header__column:first-child {
   margin-right: auto;
+  display: flex;
+  justify-content: baseline;
 }
+
+.alt-header__column:nth-child(2) {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  /* line-height: 30px; */
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: end;
 }

@@ -25,9 +25,7 @@
 
     <header class="alt-header chat-header">
       <div class="alt-header__column">
-        <a href="#" onclick="history.back()"
-          ><i class="fa-solid fa-chevron-left fa-xl"></i
-        ></a>
+        <a href="chats.html"><i class="fa-solid fa-chevron-left fa-xl"></i></a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">mining</h1>
@@ -38,34 +36,53 @@
       </div>
     </header>
 
-    <main class="main-screen more-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, May 15, 2022</div>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__alarm"></span>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+      <div class="message-row">
+        <img src="img/icon2.jpg" alt="" />
+        <div class="message-row__content">
+          <span class="message__author">mining</span>
+          <div class="message__info">
+            <span class="message__bubble message__bubble-left"
+              >お腹すいた。。。</span
+            >
+            <span class="message__time"> 18:10</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__send">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">そう？何時に退勤するの？</span>
+            <span class="message__time"> 18:11</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="img/icon2.jpg" alt="" />
+        <div class="message-row__content">
+          <span class="message__author">mining</span>
+          <div class="message__info">
+            <span class="message__bubble message__bubble-left"
+              >もうすぐだよ！</span
+            >
+            <span class="message__time"> 18:14</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-xl reply__plus"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="入力" />
+        <i class="far fa-smile-wink fa-xl reply__emoticon"></i>
+        <button><i class="fas fa-arrow-up fa-xl"></i></button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/84cbe2bb98.js"
