@@ -12,7 +12,8 @@
 }
 
 .screen-header__icons i {
-  margin-left: 20px;
+  margin-left: 10px;
+  padding: 15px 5px;
   opacity: 0.9;
 }
 
@@ -29,4 +30,22 @@
   border-radius: 50%;
   width: 4px;
   height: 4px;
+}
+
+@keyframes rotateHeaderIcon {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.screen-header__icons i:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateHeaderIcon 1s linear infinite;
 }
