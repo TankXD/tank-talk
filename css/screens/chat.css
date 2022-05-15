@@ -1,0 +1,11 @@
+#chat-screen {
+  background-color: rgb(181, 235, 171);
+
+  height: 1000vh;
+}
+
+.chat-header {
+  width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+}
