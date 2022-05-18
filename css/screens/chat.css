@@ -164,6 +164,7 @@
 
 .reply .reply__column:first-child {
   width: 10%;
+  /* text-align: start; */
 }
 .reply .reply__column:last-child {
   width: 90%;
